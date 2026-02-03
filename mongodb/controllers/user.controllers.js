@@ -1,6 +1,6 @@
 import User from "../models/user_models.js";
 
-// ------------------ TEST ROUTE ------------------
+
 export const home = (req, res) => {
   res.send("Everything is fine in GET");
 };
